@@ -1,10 +1,12 @@
 import Link from 'next/link'
- 
+import React from 'react';
+
 export default function Home() {
   return (
     <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
       <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
-        <p className="text-7xl">dldbsgn</p>
+        
+        <p className="text-7xl">환영합니다.</p>
         <p className="text-7xl"></p>
         <Link href="/pages">[_______]</Link>
       </main>
@@ -13,4 +15,4 @@ export default function Home() {
       </footer>
     </div>
   );
-}
+ }
