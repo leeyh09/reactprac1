@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import React from 'react';
+import Users from '../user';
 
 export default function Home() {
   return (
@@ -8,7 +9,9 @@ export default function Home() {
         
         <p className="text-7xl">aaaa</p>
         <p className="text-7xl"></p>
-        <Link href="/aaa">[_______]</Link>
+        <Link href="/">[Main으로]</Link>
+        
+        <Users />
       </main>
       <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
 
